@@ -1,14 +1,14 @@
-title:              Clean Blog
+title:              "Polarized Networks: A Data Story"
 email:              your-email@example.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
-baseurl:            "/startbootstrap-clean-blog-jekyll"
-url:                "https://startbootstrap.github.io"
+description:        A Blog Theme by dada
+author:             dada
+baseurl:            ""
+url:                "https://aemam022.github.io"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
-facebook_username:  StartBootstrap
+twitter_username:   
+github_username:    
+facebook_username:  
 instagram_username:  
 linkedin_username:
 
