@@ -8,6 +8,14 @@
     .navbar-brand {
         font-weight: 800;
         color: $gray-800;
+        .logo-ok {
+            display: inline;
+        }
+    }
+    .navbar-brand img {
+        height: 55px;
+        float: left;
+        margin-right: 7px;
     }
 
     .navbar-toggler {
