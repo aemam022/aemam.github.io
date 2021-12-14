@@ -2,6 +2,8 @@ const Graph = ForceGraph3D()
 (document.getElementById('3d-graph'))
   .jsonUrl('/3d-JS-Network/datasets/miserables.json')
 
+Graph.width([760])
+  
 // Nodes
   //.nodeLabel('id') //when on the node shows id
   .nodeLabel(node => `${node.id}: ${node.country}`) //when on the node shows id: country
@@ -32,3 +34,4 @@ const Graph = ForceGraph3D()
   .linkDirectionalParticles("value")                  //Nbr of the particles
   .linkDirectionalParticleWidth(d => d.value*0.1)     //Width of the particles
   .linkDirectionalParticleSpeed(d => d.value * 0.001); //Speed of the particles;
+
