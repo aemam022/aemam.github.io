@@ -1,6 +1,6 @@
 ---
 layout: home
-background: '/img/bg-index-new.jpg'
+background: '/img/bg2-index.jpg'
 ---
 
 # This is the title 
