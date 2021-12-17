@@ -129,7 +129,7 @@ function updateViz(){
   console.log(journal);
   // d3.select(document.getElementById('3d-graph')).selectChildren().remove();
   graphSim
-  .jsonUrl(`/Further_Analysis/newssites/graph_coquotation_unfiltered_all_1_filt_10_${journal}.json`)
+  .jsonUrl(`/Further_Analysis/newssites/graph_coquotation_unfiltered_all_1_filt_10_breitbart.json`)
   .nodeColor(n => color_nodes(ctx.property, n))
   .nodeRelSize(6)
   .nodeLabel(node => `${node.name}:
@@ -137,79 +137,6 @@ function updateViz(){
   ${node.nationality.length != [] ? node.nationality: 'unknown country' }`) //when on the node shows id: country
   .refresh();
 }
-
-
-//legend
-
-var d3svg = d3.select("#leg").append('svg');
-d3svg.attr('width', 600);
-d3svg.attr('height', 200);
-d3svg.style('background-color', 'black');
-var top_svg = d3svg.append('g');
-top_svg.append('g').attr('id','gleg');
-
-
-
-// Clickable text to change
-var gbutton = top_svg.append('g')
-  .attr('id','gbutton')
-  .attr('transform',`translate(250,0)`);
-
-gbutton.selectAll('text')
-  .data(properties)
-  .enter()
-  .append('text')
-  .attr("transform",(d,i) => `translate(${100*i}, 17)`)
-  .attr('fill','white')
-  .text (d=> d)
-  .on('click', (e,d)=>updateLegend(d))
-  ;
-
-function drawLegend(colors){
-  var gleg = d3.select('#gleg');
-  gleg.selectChildren().remove();
-  // make legend
-  var blocs = gleg.selectAll('g')
-    .data(Object.entries(colors))
-    .enter()
-    .append('g')
-    .attr("transform",(d,i)=> `translate(10, ${30+20*i})`)
-    
-  blocs.append('text')
-    .text(d => d[0])
-    .attr('fill', 'white').attr('x',15)
-    .attr('y',7);
-  blocs.append('circle')  
-  .attr('fill', d => d[1])
-  .attr('cx', 0)
-  .attr('cy', 0)
-  .attr('r',7);
-  // "legend" at the top
-  gleg.append('text')
-    .text('Legend :')
-    .attr('fill', 'white').attr('x',3)
-    .attr('y',17)
-
-
-}
-
-function updateClickable(property){
-  gbutton.selectAll('text')
-    .attr('fill',d=> (d==property? 'white':'grey'));
-}
-
-
-
-function updateLegend(property){
-  ctx.property = property;
-  var colormap = color_property[property];
-  drawLegend(colormap);
-  updateClickable(property);
-  graph.nodeColor(n => color_nodes(property, n));
-}
-
-updateLegend('nationality');
-updateViz();
 
 // svg.attr('class', "dg a");
 

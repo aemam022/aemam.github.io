@@ -89,8 +89,8 @@ function color_nodes(property, node){
 // controls
 
 graph(document.getElementById('3d-graph'))
-  .jsonUrl('3d-JS-Network/datasets/graph_coquotation_unfiltered_2020_1_filt_10_10.json')
-  .nodeColor(n => color_nodes('nationality', n))
+  .jsonUrl('/Further_Analysis/newssites/graph_coquotation_unfiltered_all_1_filt_10_breitbart.com.json')
+  .nodeColor(n => color_nodes('occupation', n))
   .nodeRelSize(6)
 
 // Nodes

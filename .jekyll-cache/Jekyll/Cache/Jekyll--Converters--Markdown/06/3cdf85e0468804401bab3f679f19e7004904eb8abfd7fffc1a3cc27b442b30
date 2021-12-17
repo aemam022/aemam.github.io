@@ -1,13 +1,6 @@
----
-layout: post
-background: '/img/bg2-index.jpg'
-title: "Exploring the Network"
-subtitle: Analysis on Population 
----
+I"#<h1 id="exploring-the-graph">Exploring the Graph</h1>
 
-# Exploring the Graph 
-
-<a href="/Further_Analysis/graph_choice.html">Click Here</a>
+<p><a href="/Further_Analysis/graph_choice.html">Click Here</a></p>
 
 <div id="graph1">
     <style> body { margin: 0; } </style>
@@ -20,5 +13,6 @@ subtitle: Analysis on Population
     <script type="text/javascript" src="/Further_Analysis/graph_breitbart.js"></script>
     </div>
 </div>
-    
-<a class="btn btn-primary float-right" href="/index_3.html" data-toggle="tooltip" data-placement="top" title="" data-original-title="Case Study 1: Politics">Next <span class="d-none d-md-inline">Page</span> →</a>
+
+<p><a class="btn btn-primary float-right" href="/index_3.html" data-toggle="tooltip" data-placement="top" title="" data-original-title="Exploring the Graph">Next <span class="d-none d-md-inline">Page</span> →</a></p>
+:ET
