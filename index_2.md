@@ -7,8 +7,6 @@ subtitle: Analysis on Quotes and their Relationships with News Sources
 
 # Exploring the Graph 
 
-
-
 <div id="graph1">
     <style> body { margin: 0; } </style>
     <script src="//unpkg.com/three"></script>
