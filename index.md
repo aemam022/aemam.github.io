@@ -167,5 +167,7 @@ Therefore we cannot really conclude on our statement "politicians talk more abou
 
 
 
-<a href="/2021/01/29/embed.html" class="btn btn-primary float-right">Next Page</a>
+<a class="btn btn-primary float-right" href="/index_2.html" data-toggle="tooltip" data-placement="top" title="" data-original-title="Exploring the Graph">Next <span class="d-none d-md-inline">Page</span> →</a>
+
+
 
