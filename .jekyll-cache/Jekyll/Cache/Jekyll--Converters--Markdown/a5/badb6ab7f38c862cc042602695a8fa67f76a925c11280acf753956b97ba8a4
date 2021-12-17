@@ -1,0 +1,135 @@
+I"G3<h1 id="this-is-the-title">This is the title</h1>
+<p>Here we are going ot analyse</p>
+<h2 id="introducing-quotebank">Introducing Quotebank</h2>
+
+<p>We are going to look at</p>
+
+<h2 id="graph-time">Graph Time</h2>
+
+<div id="graph1">
+    <style> body { margin: 0; } </style>
+    <script src="//unpkg.com/three"></script>
+    <script src="//unpkg.com/three-spritetext"></script>
+    <script src="//unpkg.com/3d-force-graph"></script>
+    <script src="//unpkg.com/dat.gui"></script>
+    <!--<script src="../../dist/3d-force-graph.js"></script>-->
+    <div id="3d-graph">
+    <script type="text/javascript" src="/3d-JS-Network/graph_title.js"></script>
+    </div>
+  </div>
+
+<p><a href="3d-JS-Network/graph_title_final.html">Click Here for Full Screen</a></p>
+
+<p><em>Graph 1: Here we are</em></p>
+
+<h2 id="analysis">Analysis</h2>
+
+<h2 id="case-study-1-investigating-sportwashing-bipartite-analysis">Case Study 1: Investigating Sportwashing Bipartite Analysis</h2>
+
+<h2 id="filtering-over-time">Filtering over time</h2>
+
+<p>We thought that it could have been interesting to observe the evolution of our graph over time. We focus on a specific example : <em>2018 Football World Cup</em>. Our idea is that politicians might me speaking more about sport during big events like this.</p>
+
+<p>Then we investigate whether politicians are more connected with sportsmen in summer 2018 compared to summer 2017 and 2019. We build a bipartite graph between politicians and sportsmen for each year.</p>
+
+<h3 id="summer-2017">Summer 2017</h3>
+
+<p><img src="Filter_bipartite/output_2_0.png" alt="png" /></p>
+
+<p>Number of edges: 163</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Mark Roche is linked to 29 people
+Konrad Hurrell is linked to 24 people
+Annastacia Palaszczuk is linked to 24 people
+Graham Annesley is linked to 24 people
+Chris Reykdal is linked to 18 people
+</code></pre></div></div>
+
+<h3 id="summer-2018">Summer 2018</h3>
+
+<p><img src="Filter_bipartite/output_6_0.png" alt="png" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># (Weighted) Number of edges
+</span>
+<span class="n">sum_w</span> <span class="o">=</span><span class="mi">0</span>
+<span class="k">for</span> <span class="n">b</span> <span class="ow">in</span> <span class="n">B</span><span class="p">.</span><span class="n">edges</span><span class="p">:</span>
+  <span class="n">sum_w</span> <span class="o">+=</span> <span class="n">B</span><span class="p">.</span><span class="n">edges</span><span class="p">[</span><span class="n">b</span><span class="p">][</span><span class="s">'value'</span><span class="p">]</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'Number of edges:'</span><span class="p">,</span> <span class="n">sum_w</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Number of edges: 227
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">degrees</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">B</span><span class="p">.</span><span class="n">degree</span><span class="p">(</span><span class="n">B</span><span class="p">.</span><span class="n">nodes</span><span class="p">(),</span><span class="n">weight</span><span class="o">=</span><span class="s">'value'</span><span class="p">))</span>
+<span class="n">sorted_degree</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">degrees</span><span class="p">.</span><span class="n">items</span><span class="p">(),</span> <span class="n">key</span><span class="o">=</span><span class="n">itemgetter</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="n">reverse</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">speaker</span><span class="p">,</span> <span class="n">degree</span> <span class="ow">in</span> <span class="n">sorted_degree</span><span class="p">[:</span><span class="mi">5</span><span class="p">]:</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">B</span><span class="p">.</span><span class="n">nodes</span><span class="p">[</span><span class="n">speaker</span><span class="p">][</span><span class="s">'name'</span><span class="p">],</span> <span class="s">'is linked to'</span><span class="p">,</span> <span class="n">degree</span><span class="p">,</span> <span class="s">'people'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Alex Hawke is linked to 51 people
+Peter FitzSimons is linked to 51 people
+Becky Wood is linked to 46 people
+Andrew Constance is linked to 46 people
+Shane Buckley is linked to 40 people
+</code></pre></div></div>
+
+<h3 id="summer-2019">Summer 2019</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Plotting
+</span>
+<span class="n">B</span><span class="p">.</span><span class="n">remove_nodes_from</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">nx</span><span class="p">.</span><span class="n">isolates</span><span class="p">(</span><span class="n">B</span><span class="p">)))</span>
+
+<span class="n">top_nodes</span> <span class="o">=</span> <span class="p">{</span><span class="n">n</span> <span class="k">for</span> <span class="n">n</span><span class="p">,</span> <span class="n">d</span> <span class="ow">in</span> <span class="n">B</span><span class="p">.</span><span class="n">nodes</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span> <span class="k">if</span> <span class="n">d</span><span class="p">[</span><span class="s">"sport"</span><span class="p">]</span> <span class="o">==</span> <span class="mi">0</span><span class="p">}</span>
+
+<span class="n">pos</span> <span class="o">=</span> <span class="n">nx</span><span class="p">.</span><span class="n">bipartite_layout</span><span class="p">(</span><span class="n">B</span><span class="p">,</span> <span class="n">top_nodes</span><span class="p">)</span>
+<span class="n">widthes</span> <span class="o">=</span> <span class="p">[</span><span class="n">B</span><span class="p">.</span><span class="n">edges</span><span class="p">[</span><span class="n">e</span><span class="p">][</span><span class="s">'value'</span><span class="p">]</span> <span class="o">/</span> <span class="mi">10</span> <span class="k">for</span> <span class="n">e</span> <span class="ow">in</span> <span class="n">B</span><span class="p">.</span><span class="n">edges</span><span class="p">]</span>
+<span class="n">nx</span><span class="p">.</span><span class="n">draw</span><span class="p">(</span><span class="n">B</span><span class="p">,</span> <span class="n">pos</span><span class="o">=</span><span class="n">pos</span><span class="p">,</span> <span class="n">node_color</span> <span class="o">=</span> <span class="p">[</span><span class="n">B</span><span class="p">.</span><span class="n">nodes</span><span class="p">[</span><span class="n">n</span><span class="p">][</span><span class="s">'sport'</span><span class="p">]</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">B</span><span class="p">.</span><span class="n">nodes</span><span class="p">],</span><span class="n">node_size</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="n">plt</span><span class="p">.</span><span class="n">cm</span><span class="p">.</span><span class="n">jet</span><span class="p">,</span> 
+        <span class="n">width</span> <span class="o">=</span> <span class="n">widthes</span> <span class="p">)</span>
+<span class="n">labels</span> <span class="o">=</span> <span class="n">nx</span><span class="p">.</span><span class="n">draw_networkx_labels</span><span class="p">(</span><span class="n">B</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="nb">dict</span><span class="p">([(</span><span class="n">n</span><span class="p">,</span><span class="n">B</span><span class="p">.</span><span class="n">nodes</span><span class="p">[</span><span class="n">n</span><span class="p">][</span><span class="s">'name'</span><span class="p">])</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">B</span><span class="p">.</span><span class="n">nodes</span><span class="p">()]),</span> <span class="n">font_size</span> <span class="o">=</span><span class="mi">6</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><img src="output_10_0.png" alt="png" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># (Weighted) Number of edges
+</span>
+<span class="n">sum_w</span> <span class="o">=</span><span class="mi">0</span>
+<span class="k">for</span> <span class="n">b</span> <span class="ow">in</span> <span class="n">B</span><span class="p">.</span><span class="n">edges</span><span class="p">:</span>
+  <span class="n">sum_w</span> <span class="o">+=</span> <span class="n">B</span><span class="p">.</span><span class="n">edges</span><span class="p">[</span><span class="n">b</span><span class="p">][</span><span class="s">'value'</span><span class="p">]</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'Number of edges:'</span><span class="p">,</span> <span class="n">sum_w</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Number of edges: 151
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">degrees</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">B</span><span class="p">.</span><span class="n">degree</span><span class="p">(</span><span class="n">B</span><span class="p">.</span><span class="n">nodes</span><span class="p">(),</span><span class="n">weight</span><span class="o">=</span><span class="s">'value'</span><span class="p">))</span>
+<span class="n">sorted_degree</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">degrees</span><span class="p">.</span><span class="n">items</span><span class="p">(),</span> <span class="n">key</span><span class="o">=</span><span class="n">itemgetter</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="n">reverse</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">speaker</span><span class="p">,</span> <span class="n">degree</span> <span class="ow">in</span> <span class="n">sorted_degree</span><span class="p">[:</span><span class="mi">5</span><span class="p">]:</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">B</span><span class="p">.</span><span class="n">nodes</span><span class="p">[</span><span class="n">speaker</span><span class="p">][</span><span class="s">'name'</span><span class="p">],</span> <span class="s">'is linked to'</span><span class="p">,</span> <span class="n">degree</span><span class="p">,</span> <span class="s">'people'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Dick Moriarty is linked to 32 people
+Grant Shapps is linked to 32 people
+Israel Folau is linked to 26 people
+Penny Wong is linked to 20 people
+Peter FitzSimons is linked to 16 people
+</code></pre></div></div>
+
+<h3 id="summary">Summary</h3>
+
+<p>If we look at the graph and the weighted number of edges, the connections of the graph are stronger during summer 2018.
+The number of crossing edges is:</p>
+<ul>
+  <li>2017: 163</li>
+  <li>2018: 227</li>
+  <li>2019: 151</li>
+</ul>
+
+<p>However when we observe the names, sportsmen quoted a lot are retired athletes, mostly ex-rugbymen. In the end we don’t observe a lot of football names.</p>
+
+<p>Therefore we cannot really conclude on our statement “politicians talk more about sportsmen during World Cup”. In fact, a politician might talk about a sportsmen in an article, but nothing implies that this sportsmen will be quoted in the same article. A graph based on mutual mention in quotes may have worked better (see annexe).</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+</code></pre></div></div>
+:ET

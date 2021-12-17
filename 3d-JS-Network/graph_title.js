@@ -87,11 +87,6 @@ function color_nodes(property, node){
 }
 
 // controls
-const controls = { 'DAG Orientation': 'nationality'};
-var gui = new dat.GUI();
-gui.domElement.id = 'gui';
-var menu = gui.add(controls, 'DAG Orientation', ['occupation', 'nationality'])
-  .onChange(property =>  graph.nodeColor(n => color_nodes(property, n)));
 
 graph(document.getElementById('3d-graph'))
   .jsonUrl('3d-JS-Network/datasets/graph_coquotation_unfiltered_2020_1_filt_10_10.json')
@@ -119,4 +114,5 @@ graph(document.getElementById('3d-graph'))
   //.linkDirectionalParticleWidth(d => d.value*0.05)     //Width of the particles
   // .linkDirectionalParticleSpeed(d => d.value * 0.001); //Speed of the particles;
 
-  
+graph.width([768])
+graph.height([600])

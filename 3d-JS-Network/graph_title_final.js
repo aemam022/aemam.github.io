@@ -149,7 +149,7 @@ function color_nodes(property, node){
 const properties = ['nationality', 'occupation','gender', 'party']
 
 graph(document.getElementById('3d-graph'))
-  .jsonUrl('3d-JS-Network/datasets/graph_coquotation_unfiltered_2020_1_filt_10_10.json')
+  .jsonUrl('/3d-JS-Network/datasets/graph_coquotation_unfiltered_2020_1_filt_10_10.json')
   .nodeColor(n => color_nodes('nationality', n))
   .nodeRelSize(6)
 
@@ -179,7 +179,7 @@ graph(document.getElementById('3d-graph'))
 //legend
 
 var d3svg = d3.select("#leg").append('svg');
-d3svg.attr('width', 1200);
+d3svg.attr('width', 768);
 d3svg.attr('height', 200);
 d3svg.style('background-color', 'black');
 var top_svg = d3svg.append('g');
@@ -245,3 +245,5 @@ function updateLegend(property){
 
 updateLegend('nationality');
 // svg.attr('class', "dg a");
+
+graph.height([600])

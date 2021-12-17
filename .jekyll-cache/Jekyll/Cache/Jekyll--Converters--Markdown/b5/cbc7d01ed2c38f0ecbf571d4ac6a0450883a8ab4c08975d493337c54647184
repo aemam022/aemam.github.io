@@ -1,0 +1,27 @@
+I":<h1 id="this-is-the-title">This is the title</h1>
+<p>Here we are going ot analyse</p>
+<h2 id="introducing-quotebank">Introducing Quotebank</h2>
+
+<p>We are going to look at</p>
+
+<h2 id="graph-time">Graph Time</h2>
+
+<div id="graph1">
+    <style> body { margin: 0; } </style>
+    <script src="//unpkg.com/three"></script>
+    <script src="//unpkg.com/three-spritetext"></script>
+    <script src="//unpkg.com/3d-force-graph"></script>
+    <script src="//unpkg.com/dat.gui"></script>
+    <!--<script src="../../dist/3d-force-graph.js"></script>-->
+    <div id="3d-graph">
+    <script type="text/javascript" src="/3d-JS-Network/graph_title.js"></script>
+    </div>
+  </div>
+
+<p><a href="3d-JS-Network/graph_title_final.html">Click Here for Full Screen</a></p>
+
+<p><em>Graph 1: Here we are</em></p>
+
+<h2 id="analysis">Analysis</h2>
+
+:ET
