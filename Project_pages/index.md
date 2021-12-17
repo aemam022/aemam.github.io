@@ -29,7 +29,7 @@ We are going to look at
     </div>
   </div>
 
-<a href="3d-JS-Network/graph_title_final.html">Click Here for Full Screen</a>
+<a href="3d-JS-Network/graph_title_final.html">Click Here for Full Screen And Interactive Data Viz</a>
 
 *Graph 1: Here we are*
 

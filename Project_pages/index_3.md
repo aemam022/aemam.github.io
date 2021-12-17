@@ -21,7 +21,7 @@ Add graph here
     </div>
   </div>
 
-<a href="/Politics_page/graph_politics.html">Click Here for Full Screen</a>
+<a href="/Politics_page/graph_politics.html">Click Here for Full Screen And Interactive Data Viz</a>
 
 
 ## First look

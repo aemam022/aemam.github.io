@@ -7,7 +7,7 @@ subtitle: Analysis on Quotes and their Relationships with News Sources
 
 # Exploring the Graph 
 
-<a href="/Further_Analysis/graph_choice.html">Click Here</a>
+
 
 <div id="graph1">
     <style> body { margin: 0; } </style>
@@ -20,6 +20,7 @@ subtitle: Analysis on Quotes and their Relationships with News Sources
     <script type="text/javascript" src="/Further_Analysis/graph_breitbart.js"></script>
     </div>
 </div>
+<a href="/Further_Analysis/graph_choice.html">Click Here for Full Screen And Interactive Data Viz</a>
 
 # [Come with me pour une petite Balade](https://youtu.be/F0nMq1R6v9g?t=16)
 
