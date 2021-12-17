@@ -87,9 +87,9 @@ It's a too large number for us to interpret each group by hand, we then focuse o
 ### Homophily
 Which speaker attributes could be useful to filter on ? We compute the homophily with respect to *gender*, *nationality* and *political party*.
 
-The homopholy estimate the similarity of connections in the graph with respect to the given attribute. 
+The homophily estimate the similarity of connections in the graph with respect to the given attribute. 
 
-Results of homopholy:
+Results of homophily:
 - gender: 0.225
 - nationality: 0.404
 - party: 0.321
