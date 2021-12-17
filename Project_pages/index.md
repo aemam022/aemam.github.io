@@ -8,12 +8,9 @@ subtitle: A Data Story by dada
 ### Table of Contents
 
 
-
-# 
-Here we are going ot analyse 
 ## Introducing Quotebank 
 
-We are going to look at 
+We are going to look at Quotebank! 
 
 ## Graph Time
 
