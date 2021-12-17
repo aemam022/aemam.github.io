@@ -7,8 +7,6 @@ subtitle: Analysis on Quotes and their Relationships with News Sources
 
 # Exploring the Graph 
 
-<a href="/Further_Analysis/graph_choice.html">Click Here</a>
-
 <div id="graph1">
     <style> body { margin: 0; } </style>
     <script src="//unpkg.com/three"></script>
@@ -20,6 +18,7 @@ subtitle: Analysis on Quotes and their Relationships with News Sources
     <script type="text/javascript" src="/Further_Analysis/graph_breitbart.js"></script>
     </div>
 </div>
+<a href="/Further_Analysis/graph_choice.html">Click Here for Full Screen And Interactive Data Viz</a>
 
 # [Come with me pour une petite Balade](https://youtu.be/F0nMq1R6v9g?t=16)
 
@@ -43,7 +42,7 @@ Oh Yes!
 By the way, we found a cluster which is basketball oriented.
 
 
-##Do the cluster correspond to sports?
+## Do the cluster correspond to sports?
 Let's check that, but first, why don't we change the coloration? Let's see the **genders**.
 [HUMPF! It is note very mixed ...](https://youtu.be/LLn3FT9BsRs)
 
@@ -89,12 +88,12 @@ In fact, if we change the coloration according to the gender and the occupation,
 
 On the other hand, the gender is more equilibrated for [the occupations of the public life](https://youtu.be/VBmMU_iwe6U).
 
-##Globaly the socio-economic categories seem to be well covered
+## Globaly the socio-economic categories seem to be well covered
 We have singers, choregraphers, and some [scientifics](https://www.youtube.com/watch?v=z3QeYtv1OPs).
 # And what about a more controversial news source like **Breitbart**?
 The first thing we can observe is a dense core of business, public life and science people, which is surrounded by different clusters of sportives.
 
-##In a similar way, compared to what we saw in the first source, 
+## In a similar way, compared to what we saw in the first source, 
 sportives build clusters according to the sport they practice. There are not so many links between tennis players and basketball players for exemple. 
 
 Once again, if we look at the gender of the sport players, it's quasi [exclusively men](https://youtu.be/l5aZJBLAu1E) ...
@@ -104,17 +103,17 @@ Europeans are still related to football and automobile sports.
 
 It's quite striking to notice that Breitbart speaks about more sports than NBC Sports. For instance, we have golfers, cricket players, tennis players. An isolated cluster of rugby player is there too, [can you find it?](https://youtu.be/Nahsjvs3Ay8?t=4) 
 
-##What if we get closer to the non-sportive core of the graph?
+## What if we get closer to the non-sportive core of the graph?
 As expected, we found a very connected node. It's [Donald Trump!](https://youtu.be/vsMWVW4xtwI?t=4) Don't hesitate to move its node to see all the edges he has.
 
 Donald Trump is naturally connected to other politicians (like Donald Tusk, the former president of the European Council), business persons. But to scientists too! We can name Rosina Bierbaum, that worked on ecology and evolution and helped Barack Obama as Advisor on Science and Technology (The graph doesn't allow to say how positiv their relation is)...
 
 Anyway, you can still try to find unexpected connections.
 
-##By looking at the nationalities, you can see that the graph is quite polarized 
+## By looking at the nationalities, you can see that the graph is quite polarized 
 Nodes are grouped by geographic origines which can make sense, as you have more chances to have contacts with someone of your nationality.
 
-##Before switching to the New York Times, 
+## Before switching to the New York Times, 
 we can notice that as small cluster of people classified as artists is present. But in fact it's essentially [TV actors](https://youtu.be/UAO2JBjRRBk?t=24).
 
 It seems that the Brisbane Times had relatively more artists.
@@ -124,7 +123,7 @@ Let's the to the **New York Times**
 
 
 
-#Is the **New York Times** a better news paper?
+# Is the **New York Times** a better news paper?
 
 We are now used to see yellow sportive clusters, a bit apart. This is stille the case even. (You can [shake the nodes](https://youtu.be/QGm6rcUmkkE) to see it better). There is a big cluster of baseball players by the way. NYC quite loves baseball apparently.
 
@@ -140,7 +139,7 @@ The other sport-clusters are:
 
 So the NY Yimes seems to be a good news paper concerning sports even if it is not categorized as a sport-newspaper.
 
-#What do we have in the center of the graph?
+# What do we have in the center of the graph?
 Even if we have a majority of politicians, we can find writters, poets, scientists.
 
 Unfortunately, this is the limitation of the graphs: even if with a few colors we can quickly catch what are the global interactions between types of people, we can't go really into detail. Typically, we can't say if the New York Times is a better news paper than Breitbart. But the reputation of the NY Times would suggest that this is what we should observe.
@@ -156,7 +155,7 @@ And when we try the gender coloration it seems
 This website is actually a motherhood/pregnancy-focused website, rather than a news site.
 It provides advice and testimonies to mothers and pregnant women.
 
-![image](screens/journals_scary_1.png)
+![image](/Project_pages/journals_scary_1.png){:width="730px"}.
 **A view of the graph of speakers quoted at [scarymommy.com](http://www.scarymommy.com), colored by occupation**
 
 The first thing we see with this graph is that it is a lot more clustered than the others : there are strong, tight communities linked by a few 'bridge' speakers - an extreme case of a common property of real graphs.
@@ -171,8 +170,8 @@ This is due to the fact that each subgraph corresponding to a quote list is a co
 
 The [Final](https://youtu.be/GB3zR_X25UU?t=4624), a motherhood focused website was quite unexpected, but the corresponding grpah was intersting.
 
-##Don't hesitate to dive deeper into the graphs or to build your own using the GitHib of our project
+## Don't hesitate to ddive deeper into the graphs or to build your own using the GitHib of our project
 
 <a class="btn btn-primary float-left" href="/index.html" data-toggle="tooltip" data-placement="top" title="A Walk through Quotebank">&larr; Previous <span class="d-none d-md-inline">Page</span></a>
 
-<a class="btn btn-primary float-right" href="/index_3.html" data-toggle="tooltip" data-placement="top" title="" data-original-title="Case Study 1: Politics">Next <span class="d-none d-md-inline">Page</span> →</a>
+<a class="btn btn-primary float-right" href="/Project_pages/index_3.html" data-toggle="tooltip" data-placement="top" title="" data-original-title="Case Study 1: Politics">Next <span class="d-none d-md-inline">Page</span> →</a>
