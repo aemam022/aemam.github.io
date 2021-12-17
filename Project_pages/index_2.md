@@ -54,7 +54,7 @@ Green dotes (that correspond to Female) are very rare, only connected to 2 clust
 
 These female sportives seem to come only from Canada or the USA, where these sports are very popular.
 
-##Would we observe geographic trends if we color the graph by nationality?
+## Would we observe geographic trends if we color the graph by nationality?
 Will we see an European cluster of football player typically ?
 Let's try! 
 
