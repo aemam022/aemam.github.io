@@ -30,7 +30,7 @@ We are going to look at
       <script src="//unpkg.com/d3"></script>
       <script src="//unpkg.com/3d-force-graph"></script>
     <!--<script src="../../dist/3d-force-graph.js"></script>-->
-  </head>
+</head>
   
   <body>
     <div id="3d-graph"></div>
