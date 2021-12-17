@@ -157,7 +157,7 @@ And when we try the gender coloration it seems
 This website is actually a motherhood/pregnancy-focused website, rather than a news site.
 It provides advice and testimonies to mothers and pregnant women.
 
-![image](/Project_pages/journals_scary_1.png)
+![image](/Project_pages/journals_scary_1.png){:width="730px"}.
 **A view of the graph of speakers quoted at [scarymommy.com](http://www.scarymommy.com), colored by occupation**
 
 The first thing we see with this graph is that it is a lot more clustered than the others : there are strong, tight communities linked by a few 'bridge' speakers - an extreme case of a common property of real graphs.
