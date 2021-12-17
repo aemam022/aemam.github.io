@@ -1,13 +1,11 @@
 ---
 layout: post
 background: '/img/bg-politics.jpg'
-title: "Exploring the Network"
-subtitle: Analysis on Population 
+title: "Case Study 1: Political Polarization"
+subtitle: Are Democrats and Republicans such polar opposites?
 ---
 
 # Matters of Politics
-
-Add graph here 
 
  <div id="graph3">
     <style> body { margin: 0; } </style>
