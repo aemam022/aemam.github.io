@@ -1,6 +1,6 @@
 ---
 layout: post
-background: '/img/bg2-index.jpg'
+background: '/img/bg-politics.jpg'
 title: "Exploring the Network"
 subtitle: Analysis on Population 
 ---
