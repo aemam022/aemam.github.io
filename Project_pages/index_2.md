@@ -125,7 +125,7 @@ Let's the to the **New York Times**
 
 # Is the **New York Times** a better news paper?
 
-We are now used to see yellow sportive clusters, a bit apart. This is stille the case even. (You can [shake the nodes](https://youtu.be/QGm6rcUmkkE) to see it better). There is a big cluster of baseball players by the way. NYC quite loves baseball apparently.
+We are now used to see yellow sportive clusters, a bit apart. This is still the case even. (You can [shake the nodes](https://youtu.be/QGm6rcUmkkE) to see it better). There is a big cluster of baseball players by the way. NYC quite loves baseball apparently.
 
 The other sport-clusters are:
 
