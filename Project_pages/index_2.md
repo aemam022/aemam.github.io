@@ -79,7 +79,7 @@ Even if we have a dominant red center, on the edge a blue (Continental Europe) a
 
 That would mean that the **Brisbane Times** offers the possibility to get quite international news (even if there are no nodes from Asia, or Africa/Middle East).
 
-##And if we have a look at the gender repartiton,
+## And if we have a look at the gender repartiton,
 it seems globally equilibrated.
 
 Except to branches, but if we look at the occupations, these branches correspond to sportives. So nothing very surprising according to what we noticed previously.
