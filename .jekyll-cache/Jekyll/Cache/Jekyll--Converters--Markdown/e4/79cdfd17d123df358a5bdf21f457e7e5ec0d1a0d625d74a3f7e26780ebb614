@@ -1,0 +1,20 @@
+I"�<h1 id="exploring-the-graph">Exploring the Graph</h1>
+
+<p><a href="/Further_Analysis/graph_choice.html">Click Here</a></p>
+
+<div id="graph1">
+    <style> body { margin: 0; } </style>
+    <script src="//unpkg.com/three"></script>
+    <script src="//unpkg.com/three-spritetext"></script>
+    <script src="//unpkg.com/3d-force-graph"></script>
+    <script src="//unpkg.com/dat.gui"></script>
+    <!--<script src="../../dist/3d-force-graph.js"></script>-->
+    <div id="3d-graph">
+    <script type="text/javascript" src="/Further_Analysis/graph_breitbart.js"></script>
+    </div>
+</div>
+
+<p><a class="btn btn-primary float-left" href="/index.html" data-toggle="tooltip" data-placement="top" title="A Walk through Quotebank">← Previous <span class="d-none d-md-inline">Page</span></a></p>
+
+<p><a class="btn btn-primary float-right" href="/index_3.html" data-toggle="tooltip" data-placement="top" title="" data-original-title="Case Study 1: Politics">Next <span class="d-none d-md-inline">Page</span> →</a></p>
+:ET
