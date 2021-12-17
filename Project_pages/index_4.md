@@ -17,7 +17,7 @@ Then we investigate whether politicians are more connected with sportsmen in sum
 
 ### Summer 2017
 
-![png](Filter_bipartite/output_2_0.png)
+![png](/Filter_bipartite/output_2_0.png)
     
 Number of edges: 163
 
@@ -30,7 +30,7 @@ Number of edges: 163
 
 ### Summer 2018
 
-![png](Filter_bipartite/output_6_0.png)
+![png](/Filter_bipartite/output_6_0.png)
     
 Number of edges: 227
 
@@ -43,7 +43,7 @@ Number of edges: 227
 
 ### Summer 2019
 
-![png](Filter_bipartite/output_10_0.png)
+![png](/Filter_bipartite/output_10_0.png)
 
 Number of edges: 151
 
