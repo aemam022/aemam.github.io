@@ -5,13 +5,12 @@ description: The People Behind this Data Story
 background: '/img/bg-index-new.jpg'
 ---
 
-### Team
-<br /> 
+### Team dada
 <br /> 
 
 ##### Ahmed 
 ###### Master's Student in Life Sciences Engineering
-<br /> 
+<br />
 
 ##### Geoffray 
 ###### Master's Student in Life Sciences Engineering
