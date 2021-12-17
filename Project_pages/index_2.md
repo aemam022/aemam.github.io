@@ -170,7 +170,7 @@ This is due to the fact that each subgraph corresponding to a quote list is a co
 
 The [Final](https://youtu.be/GB3zR_X25UU?t=4624), a motherhood focused website was quite unexpected, but the corresponding grpah was intersting.
 
-## Don't hesitate to ddive deeper into the graphs or to build your own using the GitHib of our project
+##### Don't hesitate to ddive deeper into the graphs or to build your own using the GitHib of our project
 
 <a class="btn btn-primary float-left" href="/index.html" data-toggle="tooltip" data-placement="top" title="A Walk through Quotebank">&larr; Previous <span class="d-none d-md-inline">Page</span></a>
 
