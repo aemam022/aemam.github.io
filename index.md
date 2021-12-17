@@ -96,12 +96,6 @@ Results of homopholy:
 
 Those results show that *nationality* is a good attribute to observe clusters. Indeed on the 3D graph we clearly distinguish clusters of speakers with the same nationality.
 
-
-
-## Graph Analysis 
-
-
-
 <a class="btn btn-primary float-right" href="/Project_pages/index_2.html" data-toggle="tooltip" data-placement="top" title="" data-original-title="Exploring the Graph">Next <span class="d-none d-md-inline">Page</span> →</a>
 
 
