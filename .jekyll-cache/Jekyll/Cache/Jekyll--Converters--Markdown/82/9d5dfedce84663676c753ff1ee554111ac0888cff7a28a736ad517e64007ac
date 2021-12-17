@@ -1,4 +1,4 @@
-I"u-<h1 id="exploring-the-graph">Exploring the Graph</h1>
+I"�-<h1 id="exploring-the-graph">Exploring the Graph</h1>
 
 <div id="graph1">
     <style> body { margin: 0; } </style>
@@ -71,8 +71,8 @@ Daniel Ricciardo is one of the few representatives of Australia in this graph.</
 
 <p>That would mean that the <strong>Brisbane Times</strong> offers the possibility to get quite international news (even if there are no nodes from Asia, or Africa/Middle East).</p>
 
-<p>##And if we have a look at the gender repartiton,
-it seems globally equilibrated.</p>
+<h2 id="and-if-we-have-a-look-at-the-gender-repartiton">And if we have a look at the gender repartiton,</h2>
+<p>it seems globally equilibrated.</p>
 
 <p>Except to branches, but if we look at the occupations, these branches correspond to sportives. So nothing very surprising according to what we noticed previously.</p>
 
@@ -80,8 +80,8 @@ it seems globally equilibrated.</p>
 
 <p>On the other hand, the gender is more equilibrated for <a href="https://youtu.be/VBmMU_iwe6U">the occupations of the public life</a>.</p>
 
-<h2 id="globaly-the-socio-economic-categories-seem-to-be-well-covered">Globaly the socio-economic categories seem to be well covered</h2>
-<p>We have singers, choregraphers, and some <a href="https://www.youtube.com/watch?v=z3QeYtv1OPs">scientifics</a>.</p>
+<h2 id="globally-the-socio-economic-categories-seem-to-be-well-covered">Globally the socio-economic categories seem to be well covered</h2>
+<p>We have singers, choreographers, and some <a href="https://www.youtube.com/watch?v=z3QeYtv1OPs">scientists</a>.</p>
 <h1 id="and-what-about-a-more-controversial-news-source-like-breitbart">And what about a more controversial news source like <strong>Breitbart</strong>?</h1>
 <p>The first thing we can observe is a dense core of business, public life and science people, which is surrounded by different clusters of sportives.</p>
 
@@ -113,7 +113,7 @@ Let’s the to the <strong>New York Times</strong></p>
 
 <h1 id="is-the-new-york-times-a-better-news-paper">Is the <strong>New York Times</strong> a better news paper?</h1>
 
-<p>We are now used to see yellow sportive clusters, a bit apart. This is stille the case even. (You can <a href="https://youtu.be/QGm6rcUmkkE">shake the nodes</a> to see it better). There is a big cluster of baseball players by the way. NYC quite loves baseball apparently.</p>
+<p>We are now used to see yellow sportive clusters, a bit apart. This is still the case even. (You can <a href="https://youtu.be/QGm6rcUmkkE">shake the nodes</a> to see it better). There is a big cluster of baseball players by the way. NYC quite loves baseball apparently.</p>
 
 <p>The other sport-clusters are:</p>
 
@@ -152,10 +152,11 @@ It provides advice and testimonies to mothers and pregnant women.</p>
 <p>Another notable feature is the presence of numerous artists (in green) compared to the other news sites.</p>
 
 <p>The speakers quoted on this website are also unusually dense, compared to the whole graph :  3825 edges for only 373 nodes -  a density of only 2,7 %, but still 200 times more than the whole graph.
-This is due to the fact that each subgraph corresponding to a quote list is a complete graph, and so maximally dense.
-#Our Little walk along the Land of Gaphs ends now</p>
+This is due to the fact that each subgraph corresponding to a quote list is a complete graph, and so maximally dense.</p>
 
-<p>The <a href="https://youtu.be/GB3zR_X25UU?t=4624">Final</a>, a motherhood focused website was quite unexpected, but the corresponding grpah was intersting.</p>
+<h3 id="our-little-walk-along-the-land-of-graphs-ends-now">Our Little walk along the Land of Graphs ends now</h3>
+
+<p>The <a href="https://youtu.be/GB3zR_X25UU?t=4624">Final</a>, a motherhood focused website was quite unexpected, but the corresponding graph was intersting.</p>
 
 <h5 id="dont-hesitate-to-dive-deeper-into-the-graphs-or-to-build-your-own-using-the-githib-of-our-project">Don’t hesitate to dive deeper into the graphs or to build your own using the GitHib of our project</h5>
 

@@ -166,9 +166,10 @@ Another notable feature is the presence of numerous artists (in green) compared 
 
 The speakers quoted on this website are also unusually dense, compared to the whole graph :  3825 edges for only 373 nodes -  a density of only 2,7 %, but still 200 times more than the whole graph.
 This is due to the fact that each subgraph corresponding to a quote list is a complete graph, and so maximally dense.
-#Our Little walk along the Land of Gaphs ends now
 
-The [Final](https://youtu.be/GB3zR_X25UU?t=4624), a motherhood focused website was quite unexpected, but the corresponding grpah was intersting.
+### Our Little walk along the Land of Graphs ends now
+
+The [Final](https://youtu.be/GB3zR_X25UU?t=4624), a motherhood focused website was quite unexpected, but the corresponding graph was intersting.
 
 ##### Don't hesitate to dive deeper into the graphs or to build your own using the GitHib of our project
 

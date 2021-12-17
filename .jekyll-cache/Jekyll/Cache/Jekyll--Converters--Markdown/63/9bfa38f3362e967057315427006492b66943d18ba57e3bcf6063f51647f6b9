@@ -1,4 +1,4 @@
-I"ª<h2 id="introduction">Introduction</h2>
+I"Ý<h2 id="introduction">Introduction</h2>
 
 <p>We present our project on modeling a speaker network using Quotebank. The dataset is a corpus of 178 million quotations attributed to the speakers who uttered them, extracted from 162 million English news articles published between 2008 and 2020. We use a speaker attribute table from Wikidata to extract information on the individuals.
 This project aims to explore the relationships between people quoted in the Quotebank dataset. Specifically, we construct a graph based on co-quotation of speakers in the same articles, using years from 2015 to 2020. Visualizing these relationships can give us an understanding of the networks and communities that are behind quotes, such as professional domains and fields of expertise, political orientation, and even like-mindedness.
@@ -32,28 +32,14 @@ Secondly we focus on specific case studies using our graph properties to underst
   <li>Edges: 374240</li>
 </ul>
 
-<p>First thing to notice, the graph is very sparse:</p>
-<ul>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td>Sparsity = $$ \frac{</td>
-          <td>E</td>
-          <td>}{</td>
-          <td>E_{max}</td>
-          <td>}$ =  0.01%$$</td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
-</ul>
+<p>First thing to notice, the graph is very sparse:
+Sparsity = \(\frac{|E|}{|E_{max}|}\) =  0.01%</p>
 
 <p>As we want to do clustering, we take a look at the connected components.</p>
 <ul>
   <li>There are 4 connected components</li>
   <li>There are 3 small connected components (size 10, 13 and 13)</li>
-  <li>There is on big connected componenents of 118788 speakers</li>
+  <li>There is one big connected components of 118788 speakers</li>
 </ul>
 
 <p>It looks like we can not rely on connected components only.</p>
@@ -101,9 +87,9 @@ We could have expected this, especially that Donald Trump is the most central.</
 <h3 id="homophily">Homophily</h3>
 <p>Which speaker attributes could be useful to filter on ? We compute the homophily with respect to <em>gender</em>, <em>nationality</em> and <em>political party</em>.</p>
 
-<p>The homopholy estimate the similarity of connections in the graph with respect to the given attribute.</p>
+<p>The homophily estimate the similarity of connections in the graph with respect to the given attribute.</p>
 
-<p>Results of homopholy:</p>
+<p>Results of homophily:</p>
 <ul>
   <li>gender: 0.225</li>
   <li>nationality: 0.404</li>

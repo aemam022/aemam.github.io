@@ -43,7 +43,7 @@ Sparsity = $$ \frac{|E|}{|E_{max}|}$$ =  0.01%
 As we want to do clustering, we take a look at the connected components.
 - There are 4 connected components
 - There are 3 small connected components (size 10, 13 and 13)
-- There is on big connected componenents of 118788 speakers
+- There is one big connected components of 118788 speakers
 
 It looks like we can not rely on connected components only.
 

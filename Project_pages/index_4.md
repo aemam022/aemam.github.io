@@ -7,7 +7,7 @@ subtitle: Can we visualize a relationship between politics and sports?
 
 # Exploring the Graph 
 
-## Case Study 1: Investigating Sportwashing Bipartite Analysis 
+## Case Study 1: Investigating Sportwashing by Bipartite Analysis 
 
 ## Filtering over time
 
