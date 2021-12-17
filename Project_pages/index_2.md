@@ -88,8 +88,8 @@ In fact, if we change the coloration according to the gender and the occupation,
 
 On the other hand, the gender is more equilibrated for [the occupations of the public life](https://youtu.be/VBmMU_iwe6U).
 
-## Globaly the socio-economic categories seem to be well covered
-We have singers, choregraphers, and some [scientifics](https://www.youtube.com/watch?v=z3QeYtv1OPs).
+## Globally the socio-economic categories seem to be well covered
+We have singers, choreographers, and some [scientists](https://www.youtube.com/watch?v=z3QeYtv1OPs).
 # And what about a more controversial news source like **Breitbart**?
 The first thing we can observe is a dense core of business, public life and science people, which is surrounded by different clusters of sportives.
 
