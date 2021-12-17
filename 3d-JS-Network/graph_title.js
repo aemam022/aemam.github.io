@@ -119,5 +119,4 @@ graph(document.getElementById('3d-graph'))
   //.linkDirectionalParticleWidth(d => d.value*0.05)     //Width of the particles
   // .linkDirectionalParticleSpeed(d => d.value * 0.001); //Speed of the particles;
 
-  graph.width([window.Width])
   

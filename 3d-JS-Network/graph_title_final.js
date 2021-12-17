@@ -149,7 +149,7 @@ function color_nodes(property, node){
 const properties = ['nationality', 'occupation','gender', 'party']
 
 graph(document.getElementById('3d-graph'))
-  .jsonUrl('output/graph_coquotation_unfiltered_2020_1_filt_10_10.json')
+  .jsonUrl('3d-JS-Network/datasets/graph_coquotation_unfiltered_2020_1_filt_10_10.json')
   .nodeColor(n => color_nodes('nationality', n))
   .nodeRelSize(6)
 

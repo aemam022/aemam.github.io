@@ -1,4 +1,4 @@
-I"	<h1 id="this-is-the-title">This is the title</h1>
+I"<h1 id="this-is-the-title">This is the title</h1>
 <p>Here we are going ot analyse</p>
 <h2 id="introducing-quotebank">Introducing Quotebank</h2>
 
@@ -11,22 +11,17 @@
     <style> .legend {
       /* float: right;
       margin-right: 15px; */
-
-      background-color: black;
+    background-color: black;
     }
     </style> 
     <style>html { overflow-y: scroll; }</style>
-
     <meta charset="UTF-8" />
-
-    <script src="//unpkg.com/three"></script>
-    <script src="//unpkg.com/three-spritetext"></script>
-    <script src="//unpkg.com/d3"></script>
-  
-    <script src="//unpkg.com/3d-force-graph"></script>
+      <script src="//unpkg.com/three"></script>
+      <script src="//unpkg.com/three-spritetext"></script>
+      <script src="//unpkg.com/d3"></script>
+      <script src="//unpkg.com/3d-force-graph"></script>
     <!--<script src="../../dist/3d-force-graph.js"></script>-->
-
-  </head>
+</head>
 
 <body>
     <div id="3d-graph"></div>
