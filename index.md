@@ -38,7 +38,7 @@ Let's start by the number of nodes and edges:
 - Edges: 374240
 
 First thing to notice, the graph is very sparse:
-Sparsity = $$ \frac{|E|}{|E_{max}|}$$ =  0.01% $$
+Sparsity = $$ \frac{|E|}{|E_{max}|}$$ =  0.01% 
 
 As we want to do clustering, we take a look at the connected components.
 - There are 4 connected components
