@@ -5,14 +5,13 @@ title: "A Walk through Quotebank: Modeling the Quotes Network"
 subtitle: A Data Story by dada
 
 ---
-### Table of Contents
+## Introduction
 
+We present our project on modeling a speaker network using Quotebank. The dataset is a corpus of 178 million quotations attributed to the speakers who uttered them, extracted from 162 million English news articles published between 2008 and 2020. We use a speaker attribute table from Wikidata to extract information on the individuals.
+This project aims to explore the relationships between people quoted in the Quotebank dataset. Specifically, we construct a graph based on co-quotation of speakers in the same articles, using years from 2015 to 2020. Visualizing these relationships can give us an understanding of the networks and communities that are behind quotes, such as professional domains and fields of expertise, political orientation, and even like-mindedness.
+Secondly we focus on specific case studies using our graph properties to understand links between speakers in those scenarios.
 
-## Introducing Quotebank 
-
-We are going to look at Quotebank! 
-
-## Graph Time
+## 2020 Interactive Quote Graph
 
  <div id="graph1">
     <style> body { margin: 0; } </style>
@@ -27,8 +26,6 @@ We are going to look at Quotebank!
   </div>
 
 <a href="3d-JS-Network/graph_title_final.html">Click Here for Full Screen And Interactive Data Viz</a>
-
-*Graph 1: Here we are*
 
 ## Graph Analysis
 
