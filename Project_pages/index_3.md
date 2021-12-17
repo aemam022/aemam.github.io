@@ -28,17 +28,17 @@ This network represents all speakers that are American politicians, from 2015 to
 At first glance, this network seems pretty homogenous.
 We can see a few clusters here and there, but not much more.
 
-![png](Politics_page/politicians_dem_cluster.edited.png){:width="730px"}.
+![png](/Politics_page/politicians_dem_cluster.edited.png){:width="730px"}.
 *A cluster of Democrats in the graph. What links them is unclear.*
 
 We can also see some isolated structures corresponding to local news, as in this component containing Michigan representatives.
 
-![png](Politics_page/politicians_michigan_component.png){:width="730px"}.
+![png](/Politics_page/politicians_michigan_component.png){:width="730px"}.
 *On the right, a cluster of politicians from Michigan*
 
 If we look at the centrl part of this graph, we find familiar figures.
 For example, in this region, you see both Donald Trump and Hillary Clinton as purple nodes - both are qualified as both Republicans and Democrats by Wikidata.
-![png](Politics_page/politicians_trump_clinton_edited.png){:width="730px"}.
+![png](/Politics_page/politicians_trump_clinton_edited.png){:width="730px"}.
 *The center of the graph*
 
 As you can see, Trump has a much higher degree than Clinton - no doubt due to the fact that he was has been president, and so was relevant for many more interactions.
